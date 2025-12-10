@@ -16954,9 +16954,8 @@ window.__require = function e(t, n, r) {
     "use strict";
     cc._RF.push(t, "f5ce8gzRX5ET7keNw43jpJj", "Launcher"), Object.defineProperty(n, "__esModule", {
       value: !0
-    }), n.Launcher = n.OPEN_HEAD_LESS = void 0, e("../common/libs/polyfills"), e("ts-md5"), e("@o4e/cc-mobx"), e("@jimu/basis"), e("@jimu/ecs"), e("@jimu/gltf"), e("@jimu/serdes"), e("@hortor/cc-astc-patch").astcPatch().then(function(e) {
-      globalThis.astc = e
-    }), e("./patches/index-patch"), "undefined" == typeof PLATFORM && (PLATFORM = "dev", SUB_PLATFORM = "", ENV = "Dev", APPID = "dev", CDN = "dev", SERVER = "dev", GAME_NAME = "dev", GAME_ID = "dev", GAME_VERSION = "dev", COMMIT_ID = "dev", CONFIG_COMMIT_ID = "dev", RESOURCES_COMMIT_ID = "dev", DOWNLOAD_URL = "dev", VERSION_POSTFIX = "", CDNS = []);
+    }), n.Launcher = n.OPEN_HEAD_LESS = void 0, e("../common/libs/polyfills"), e("ts-md5"), e("@o4e/cc-mobx"), e("@jimu/basis"), e("@jimu/ecs"), e("@jimu/gltf"), e("@jimu/serdes"), 
+    console.log("ASTC Patch Removed"), "undefined" == typeof PLATFORM && (PLATFORM = "dev", SUB_PLATFORM = "", ENV = "Dev", APPID = "dev", CDN = "dev", SERVER = "dev", GAME_NAME = "dev", GAME_ID = "dev", GAME_VERSION = "dev", COMMIT_ID = "dev", CONFIG_COMMIT_ID = "dev", RESOURCES_COMMIT_ID = "dev", DOWNLOAD_URL = "dev", VERSION_POSTFIX = "", CDNS = []);
     var r = e("../common/scripts/types-common"),
       o = e("../common/scripts/managers/GlobalEntityManager"),
       i = e("../common/scripts/managers/GlobalVarManager"),
